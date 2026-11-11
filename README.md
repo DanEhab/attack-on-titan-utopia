@@ -88,7 +88,7 @@ src/game/
 - **GUI.** Each battle screen draws the walls, lanes, titans and health bars, and refreshes them from the engine's state after every turn. Titan sprites are positioned from each titan's distance.
 - **Leaderboard.** Scores are stored in Firebase through its REST API. Before saving a score, the game checks that the name is not already taken. To show the leaderboard, it fetches all scores, sorts them and works out the player's rank.
 
-The `engine` package is the Milestone 2 model solution given to all students in the course. Our team designed and built everything in `gui` and `leaderboard` on top of it.
+The whole game (engine, GUI and online leaderboard) was designed and built by our team.
 
 ---
 
